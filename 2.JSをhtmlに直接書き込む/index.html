@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comptible" content="IE=edge">
+        <meta name="viewport" content="width=width-device, intial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/app.css">
+        <title>Javascriptの練習</title>
+    </head>
+    <body>
+        <header>
+            <h1>JavascriptをHTMLの中に書くパターン</h1>
+        </header>
+        <main>
+            <div id="text_area"></div>
+        <input type="button" value="Check" onclick="button()">
+        </main>
+        <footer>
+        </footer>
+            <script>
+                var button = function () {
+                var text = "JavaScript";
+                document.getElementById('text_area').innerHTML = text ;
+                }
+            </script>
+    </body>
+</html>

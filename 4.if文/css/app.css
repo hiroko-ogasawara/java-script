@@ -1,0 +1,12 @@
+@charset "utf8";
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div {
+    padding: 10px;
+    line-height: 30px;
+}
